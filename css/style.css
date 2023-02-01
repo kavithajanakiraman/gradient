@@ -1,0 +1,142 @@
+h1
+{  
+    color:rgb(0,200,56);
+    border: 2px double rgb(255, 0, 0);
+    background-color: rgb(0, 0, 255);
+    width: 180px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.linear{
+    height: 300px;
+    width: 300px;
+    color: orange;
+    background-image: linear-gradient(to bottom,violet,indigo,blue,green,yellow,orange,red);
+    margin-bottom: 50px;
+
+
+
+}
+.linear1{
+    height: 300px;
+    width: 300px;
+    color: orange;
+    background-image: linear-gradient(to left,violet,indigo,blue,green,yellow,orange,red);
+    margin-bottom: 50px;
+}
+.linear2{
+    height: 300px;
+    width: 300px;
+    color: orange;
+    background-image: linear-gradient(to right,violet,indigo,blue,green,yellow,orange,red);
+    margin-bottom: 50px;
+}
+.linear3{
+    height: 300px;
+    width: 300px;
+    color: orange;
+    background-image: linear-gradient(to top,violet,indigo,blue,green,yellow,orange,red);
+    margin-bottom: 50px;
+}
+.linear4{
+    height: 300px;
+    width: 300px;
+    color: orange;
+    background-image: linear-gradient(to bottom right,violet,indigo,blue,green,yellow,orange,red);
+    margin-bottom: 50px;
+}
+.linear5{
+    height: 300px;
+    width: 300px;
+    color: orange;
+    background-image: linear-gradient(to bottom left,violet,indigo,blue,green,yellow,orange,red);
+    margin-bottom: 50px;
+}
+.linear6{
+    height: 300px;
+    width: 300px;
+    color: orange;
+    background-image: linear-gradient(to top left,violet,indigo,blue,green,yellow,orange,red);
+    margin-bottom: 50px;
+}
+.linear7{
+    height: 300px;
+    width: 300px;
+    color: orange;
+    background-image: linear-gradient(to top right,violet,indigo,blue,green,yellow,orange,red);
+    margin-bottom: 50px;
+}
+.linear8{
+    height: 300px;
+    width: 300px;
+    color: orange;
+    background-image: linear-gradient(90deg,violet,indigo,blue,green,yellow,orange,red);
+    margin-bottom: 50px;
+}
+.linear9{
+    height: 212px;
+    width: 350px;
+    color: tomato;
+    background-image: linear-gradient(#0000002e,#8080803d), url("./images/environment.jpg");
+    background-size: cover;
+    margin-bottom: 70px;
+
+}
+.linear10{
+    height: 300px;
+    width: 300px;
+    color: orange;
+    background-image: repeating-linear-gradient(red 10%, yellow 20%, green 25%);
+    margin-bottom: 50px;
+
+}
+.radial{
+    height: 300px;
+    width: 300px;
+    color: orange;
+    background-image: radial-gradient(violet,indigo,blue,green,yellow,orange,red);
+    margin-bottom: 50px;
+}
+.radial1{
+    height: 300px;
+    width: 300px;
+    color: orange;
+    background-image: radial-gradient(circle, red, yellow, green, orange, violet);
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+.radial2{
+    height: 300px;
+    width: 300px;
+    color: orange;
+    background-image: repeating-radial-gradient(red 10%, yellow 20%, green 25%);
+    margin-bottom: 50px;
+    border-radius: 50%;
+
+}
+.conic{
+    height: 300px;
+    width: 300px;
+    color: orange;
+    background-image: conic-gradient(violet,indigo,blue,green,yellow,orange,red);
+    margin-bottom: 50px;
+}
+.conic1{
+    height: 300px;
+    width: 300px;
+    color: orange;
+    background-image: conic-gradient(violet 40deg,indigo 86deg,blue 85deg,green 140deg,yellow 160deg,orange 224deg,red);
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+.conic2{
+    height: 300px;
+    width: 300px;
+    color: orange;
+    background-image: repeating-conic-gradient(red 10%, yellow 20%, green 25%);
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
